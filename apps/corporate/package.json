@@ -1,0 +1,37 @@
+{
+  "name": "corporate",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint src --ext .ts,.tsx",
+    "test": "vitest",
+    "storybook": "storybook dev -p 6008",
+    "storybook:build": "storybook build"
+  },
+  "dependencies": {
+    "framer-motion": "^12",
+    "react": "^19",
+    "react-dom": "^19",
+    "react-router-dom": "^7",
+    "ui": "workspace:*"
+  },
+  "devDependencies": {
+    "@storybook/react": "^9",
+    "@storybook/react-vite": "^9",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@vitejs/plugin-react": "^6",
+    "autoprefixer": "^10",
+    "eslint": "^9",
+    "eslint-config": "workspace:*",
+    "tailwind-config": "workspace:*",
+    "storybook": "^9",
+    "tsconfig": "workspace:*",
+    "typescript": "^5",
+    "vite": "^6",
+    "vitest": "^3"
+  }
+}

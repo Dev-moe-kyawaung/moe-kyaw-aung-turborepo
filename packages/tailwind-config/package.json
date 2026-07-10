@@ -1,0 +1,14 @@
+{
+  "name": "tailwind-config",
+  "version": "0.0.0",
+  "private": true,
+  "main": "tailwind.config.ts",
+  "exports": {
+    "./tailwind": "./tailwind.config.ts",
+    "./postcss": "./postcss.config.js"
+  },
+  "peerDependencies": {
+    "tailwindcss": "^4",
+    "autoprefixer": "^10"
+  }
+}

@@ -33,4 +33,7 @@
     "vite": "^6",
     "vitest": "^3"
   }
+  "dependencies": {
+  "react-router-dom": "^7"
+  }
 }

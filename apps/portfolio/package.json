@@ -11,7 +11,7 @@
     "storybook": "storybook dev -p 6007",
     "storybook:build": "storybook build"
   },
-  "dependencies": {
+    "dependencies": {
     "framer-motion": "^12",
     "react": "^19",
     "react-dom": "^19",
@@ -32,8 +32,5 @@
     "typescript": "^5",
     "vite": "^6",
     "vitest": "^3"
-  }
-  "dependencies": {
-  "react-router-dom": "^7"
   }
 }
